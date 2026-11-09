@@ -61,7 +61,6 @@ INCLUDES=
 
 # Add additional defines to the build process (without a leading -D).
 DEFINES+=CY_FLASH_BASE=CY_FLASH_LG_SBM_BASE
-DEFINES+=CY_CORTEX_M4_APPL_ADDR=CY_FLASH_BASE+0x80000U
 
 # Select softfp or hardfp floating point. Default is softfp.
 VFP_SELECT=
